@@ -4,7 +4,7 @@
 #include "MAX30105.h"
 #include "heartRate.h"
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x3F, 16, 2); // Change to 0x3F if needed
+LiquidCrystal_I2C lcd(0x3F, 16, 2); 
 Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);
 MAX30105 pulseSensor;
 #define BUZZER_PIN 15
